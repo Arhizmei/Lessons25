@@ -11,13 +11,10 @@ class MainActivity2 : AppCompatActivity() {
         setContentView(R.layout.activity_main2)
     }
 
-    fun onClick (view: View){
-        val i= Intent()
-        i.putExtra("key1", "done")
-        setResult(RESULT_OK, i)
-        finish()
-
-
-
-    }
+fun onWWW(view: View){
+    val i = Intent()
+    i.putExtra("z", "Proverka peredachi informacii")
+    setResult(RESULT_OK, i)
+    finish()
+}
 }
